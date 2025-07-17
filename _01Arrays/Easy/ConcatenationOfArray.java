@@ -1,5 +1,6 @@
-
 //https://leetcode.com/problems/concatenation-of-array/description/
+package _01Arrays.Easy;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
