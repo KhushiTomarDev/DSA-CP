@@ -27,12 +27,12 @@ This repository contains my curated solutions for **Data Structures & Algorithms
 | Topic           | Questions Solved | Target |
 |----------------|-------------------|--------|
 | Arrays          | 6                | 100    |
-| Strings         | 1                | 80     |
+| Strings         | 2                | 80     |
 | Linked Lists    | 0                | 50     |
 | Trees           | 0                | 50     |
 | Graphs          | 0                | 50     |
 | Dynamic Programming | 1            | 100    |
-| **Total**       | **8**           | **430**|
+| **Total**       | **9**           | **430**|
 
 ---
 
