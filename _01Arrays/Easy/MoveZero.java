@@ -1,22 +1,24 @@
+//https://leetcode.com/problems/move-zeroes/description/
+
 package _01Arrays.Easy;
 
 import java.util.Arrays;
 
 public class MoveZero {
-     public static void moveZeroes(int[] nums) {
-        int temp;
-        for(int i=0;i<nums.length-1;i++){
-            if(nums[i]){
-                temp=nums[i];
-                nums[i]=nums[i+1];
-                nums[i+1]=temp;
+    public static void moveZeroes(int[] nums) {
+        int left = 0;
+        for (int right = 0; right < nums.length; right++) {
+            if (nums[right] != 0) {
+                int temp = nums[left];
+                nums[left] = nums[right];
+                nums[right] = temp;
+                left++;
             }
         }
         System.out.print(Arrays.toString(nums));
     }
     public static void main(String[] args) {
-        int[] num ={2,3,4,0,3,5,0,5};
-        moveZeroes(num);
+        int[] nums = {3,4,0,52,0,5,6};
+        moveZeroes(nums);
     }
-    
 }
