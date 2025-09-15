@@ -1,3 +1,7 @@
+//https://leetcode.com/problems/is-subsequence/description/
+
+package Extra;
+
 public class IsSubsequence {
     
     public static boolean isSubsequence(String s, String t) {
@@ -14,7 +18,7 @@ public class IsSubsequence {
         return sp == s.length();        
     }
     public static void main(String[] args) {
-        System.out.println(isSubsequence("asd", "as"));
+        System.out.println(isSubsequence("asd", "asfgd"));
     }
 }
     
