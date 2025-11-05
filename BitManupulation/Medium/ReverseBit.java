@@ -1,5 +1,7 @@
 //https://leetcode.com/problems/reverse-bits/description/
 
+package BitManupulation.Medium;
+
 
 public class ReverseBit {
 
