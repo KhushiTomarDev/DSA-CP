@@ -40,6 +40,8 @@ public class Search2DMatrix {
         int[][] nums = {{1,3,5,7},{10,11,16,20},{23,30,34,60}};
         System.out.println(searchMatrix(nums, 7));
         System.out.println(searchMatrix(nums, 2));
+        System.out.println(searchMatrix(nums, 23));
+    }
     }
 
 }
