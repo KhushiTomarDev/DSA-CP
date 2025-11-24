@@ -1,13 +1,13 @@
 package Backtracking;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
 public class PermutationII {
-    class Solution {
-    public void backtrack(int i, int[] nums, List<List<Integer>> res) {
+    public static void backtrack(int i, int[] nums, List<List<Integer>> res) {
         if (i == nums.length) {
             List<Integer> temp = new ArrayList<>();
             for (int x : nums) temp.add(x);
@@ -34,11 +34,14 @@ public class PermutationII {
         }
     }
 
-    public List<List<Integer>> permuteUnique(int[] nums) {
+    public static List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         backtrack(0, nums, res);
         return res;
     }
-}
+    public static void main(String[] args) {
+        int[] nums ={2,1,3};
+        System.out.println(Arrays.deepToString(permuteUnique(nums)));
+    }
     
 }
