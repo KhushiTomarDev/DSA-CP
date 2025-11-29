@@ -19,6 +19,16 @@ public class RangeSumQuery {
         public int sumRange(int left, int right) {
             return prefixSum[right + 1] - prefixSum[left];
         }
+        
+    }
+    public static void main(String[] args) {
+        int[] nums = {-2, 0, 3, -5, 2, -1};
+        RangeSumQuery outer = new RangeSumQuery();
+        NumArray obj = outer.new NumArray(nums);
+
+        System.out.println(obj.sumRange(0, 2)); // Output: 1
+        System.out.println(obj.sumRange(2, 5)); // Output: -1
+        System.out.println(obj.sumRange(0, 5)); // Output: -3
     }
 
 }
