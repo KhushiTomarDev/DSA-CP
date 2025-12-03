@@ -26,5 +26,14 @@ public class TargetSum {
 
         return counter.getOrDefault(target, 0);        
     }
+    public static void main(String[] args) {
+        int[] nums = {3,4,5,6,7};
+        int target1 = 7;
+        int target2 = 1;
+        int target3 = 10;
+        System.out.println(findTargetSumWays(nums, target1));
+        System.out.println(findTargetSumWays(nums, target2));
+        System.out.println(findTargetSumWays(nums, target3));
+    }
 
 }
