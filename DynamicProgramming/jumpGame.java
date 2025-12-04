@@ -1,6 +1,5 @@
 //https://leetcode.com/problems/jump-game/description/
 
-
 package DynamicProgramming;
 
 public class jumpGame {
@@ -18,5 +17,6 @@ public class jumpGame {
 
     public static void main(String[] args) {
         System.out.println(canJump(new int[]{2,3,4,5}));
+        System.out.println(canJump(new int[]{2,31,7,8}));
     }
 }
