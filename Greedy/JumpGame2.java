@@ -19,7 +19,9 @@ public class JumpGame2 {
     }
     public static void main(String[] args) {
         int[] nums = {3,4,5,6,7};
+        int[] nums1 = {3,4,5,6,34};
         System.out.println(jump(nums));
+        System.out.println(jump(nums1));
     }
 
 }
