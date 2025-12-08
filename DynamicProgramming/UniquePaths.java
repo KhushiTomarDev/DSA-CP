@@ -22,7 +22,8 @@ public class UniquePaths {
         return aboveRow[n - 1];        
     }
     public static void main(String[] args) {
-        System.out.println(uniquePaths(6, 0x7));
+        System.out.println(uniquePaths(6, 7));
+        System.out.println(uniquePaths(5, 8));
     }
 
 }
