@@ -21,5 +21,6 @@ public class PeakElementInAMountainArray {
     
     public static void main(String[] args) {
         System.out.println(peakIndexInMountainArray(new int[]{2, 3, 4, 5, 8, 4}));
+        System.out.println(peakIndexInMountainArray(new int[]{2, 5, 8, 4}));
     }
 }
