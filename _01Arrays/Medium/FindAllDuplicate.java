@@ -20,6 +20,8 @@ public class FindAllDuplicate {
     }
     public static void main(String[] args) {
         System.out.println(findDuplicates(new int[]{2,3,4,2,4,5,6,7,4,3,2}));
+        System.out.println(findDuplicates(new int[]{    4,5,6,7,4,3,2}));
+        System.out.println(findDuplicates(new int[]{2,3,4,2,4,7,4,3,2}));
     }
     
 }
