@@ -16,7 +16,9 @@ public class SingleNumber {
     }
     public static void main(String[] args) {
         int[] nums ={2,3,4,2,3,4,5,5,7};
+        int[] nums1 ={2,6,4,6,9,8,6};
         System.out.println(singleNumber(nums));
+        System.out.println(singleNumber(nums1));
     }
 
 }
