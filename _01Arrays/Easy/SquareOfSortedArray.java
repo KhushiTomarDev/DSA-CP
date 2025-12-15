@@ -23,6 +23,7 @@ public class SquareOfSortedArray {
     }
     public static void main(String[] args) {
         System.out.println(Arrays.toString(sortedSquares(new int[] {-2,-3,-5,9,8,6})));
+        System.out.println(Arrays.toString(sortedSquares(new int[] {-5,9,8,6})));
     }
 }
     
