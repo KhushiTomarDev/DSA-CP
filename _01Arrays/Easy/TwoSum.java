@@ -2,7 +2,6 @@
 
 package _01Arrays.Easy;
 import java.util.Arrays;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -21,6 +20,7 @@ public class TwoSum {
     }
     public static void main(String[] args) {
         System.out.println(Arrays.toString(twoSum(new int[] {3,4,5,6,1},4)));
+        System.out.println(Arrays.toString(twoSum(new int[] {3,4,5,6,1},10)));
         
     }
 }
