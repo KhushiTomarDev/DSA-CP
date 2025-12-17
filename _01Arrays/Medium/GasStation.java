@@ -25,8 +25,11 @@ public class GasStation {
 
     public static void main(String[] args) {
         int[] gas = {3,4,5,6};
+        int[] gas1 = {76,34};
         int[] cost = {3,4,8,6};
+        int[] cost1 = {33,66};
         System.out.println(canCompleteCircuit(gas, cost));
+        System.out.println(canCompleteCircuit(gas1, cost1));
     }
 
 }
