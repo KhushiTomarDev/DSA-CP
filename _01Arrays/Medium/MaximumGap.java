@@ -17,7 +17,9 @@ public class MaximumGap {
     }
     public static void main(String[] args) {
         int[] nums = {3,57,8,4,5};
+        int[] nums1 = {3,4,5};
         System.out.println(maximumGap(nums));
+        System.out.println(maximumGap(nums1));
     }
 
     
