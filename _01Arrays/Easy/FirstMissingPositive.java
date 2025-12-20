@@ -20,7 +20,11 @@ public class FirstMissingPositive {
 
         public static void main(String[] args) {
             int[] nums= {2,3,0,-1};
+            int[] nums1= {-2,-1,0,4};
+            
             System.out.println(firstMissingPositive(nums));
+            System.out.println(firstMissingPositive(nums1));
+
 
         }
 }
