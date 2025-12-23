@@ -20,5 +20,7 @@ public class MoveZero {
     public static void main(String[] args) {
         int[] nums = {3,4,0,52,0,5,6};
         moveZeroes(nums);
+        int[] nums1 = {0,0,0,52,0,5,6};
+        moveZeroes(nums1);
     }
 }
