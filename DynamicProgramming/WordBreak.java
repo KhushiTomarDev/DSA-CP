@@ -24,14 +24,19 @@ public class WordBreak {
     public static void main(String[] args) {
         String s1 = "leetcode";
         String s2 = "Sample";
+        String s3 = "applepenapple";
+
         List<String> a1 = Arrays.asList("Leet", "code");
         List<String> a2 = Arrays.asList("leet", "code");
         List<String> a3 = Arrays.asList("Sam", "ple");
         List<String> a4 = Arrays.asList("Sam", "les");
+        List<String> a5 = Arrays.asList("apple","pen");
+
         System.out.println(wordBreak(s1, a1));
         System.out.println(wordBreak(s1, a2));
         System.out.println(wordBreak(s2, a3));
         System.out.println(wordBreak(s2, a4));
+        System.out.println(wordBreak(s3, a5));
     }
 
 }
