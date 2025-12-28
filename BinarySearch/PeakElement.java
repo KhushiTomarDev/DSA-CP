@@ -19,7 +19,7 @@ public class PeakElement {
         return left;
     }
     public static void main(String[] args) {
-        System.out.println(findPeakElement(new int[]{2,3,4,5,4,5,8,4}));
+        System.out.println(findPeakElement(new int[]{1,2,3,5}));
         System.out.println(findPeakElement(new int[]{2,9,4,9,4,5,8,4}));
     }
     
