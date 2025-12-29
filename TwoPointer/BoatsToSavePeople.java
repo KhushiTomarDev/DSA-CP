@@ -28,7 +28,10 @@ public class BoatsToSavePeople {
     }
     public static void main(String[] args) {
         int[] people = {2,3,4,9,8,7,6};
+        int[] peoples = {2,3};
         int limit = 10;
+        int limits = 2;
         System.out.println(numRescueBoats(people, limit));
+        System.out.println(numRescueBoats(peoples, limits));
     }
 }
