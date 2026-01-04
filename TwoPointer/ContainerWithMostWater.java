@@ -23,6 +23,8 @@ public class ContainerWithMostWater {
     public static void main(String[] args) {
         int[] water = {3,4,56,7,8,9,3};
         System.out.println(maxArea(water));
+         int[] water1 = {1,8,9,3};
+        System.out.println(maxArea(water1));
     }
 }
 
