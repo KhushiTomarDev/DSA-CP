@@ -28,8 +28,8 @@ public class MergeInterval {
         return merged.toArray(new int[merged.size()][]);         
     }
     public static void main(String[] args) {
-        int[][] ans = new int[][]{{1, 3}, {2, 6}, {8, 10}, {15, 18}};
-        int[][] merged = merge(ans);
+        int[][] ans1 = new int[][]{{1, 3}, {2, 6}, {8, 10}, {15, 18}};
+        int[][] merged = merge(ans1);
 
         // Printing merged intervals
         for (int[] interval : merged) {
