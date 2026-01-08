@@ -15,9 +15,9 @@ public class KClosestPoint {
 }
 public static void main(String[] args) {
     int[][] points = {{1, 3}, {-2, 2}};
-    int[][] points1 = {{2, 8}, {-9, 1}};
+    int[][] points1 = {{2, 8}, {-9, 1},{2,5},{1,2}};
     int k = 1;
-    System.out.println(Arrays.deepToString(kClosest(points1, k)));
+    System.out.println(Arrays.deepToString(kClosest(points1, 3)));
     System.out.println(Arrays.deepToString(kClosest(points, k)));
 }
     
