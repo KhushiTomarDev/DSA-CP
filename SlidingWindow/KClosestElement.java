@@ -27,7 +27,7 @@ public class KClosestElement {
     public static void main(String[] args) {
         int[] nums={2,3,4,5};
         System.out.println(findClosestElements(nums, 1 ,0));
-        int[] nums1 = {2, 5};
+        int[] nums1 = {2, 5,9,8};
         System.out.println(findClosestElements(nums1, 7, 0));
     }
 }
