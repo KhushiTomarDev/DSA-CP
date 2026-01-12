@@ -20,5 +20,6 @@ public class SubarrayProductLessThanK {
     }
     public static void main(String[] args) {
         System.out.println(numSubarrayProductLessThanK(new int[]{3,5,4,3,2,3,5,6,7,7,44}, 30));
+        System.out.println(numSubarrayProductLessThanK(new int[]{7,44}, 3));
     }
 }
