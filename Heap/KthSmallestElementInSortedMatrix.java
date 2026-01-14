@@ -19,5 +19,7 @@ public class KthSmallestElementInSortedMatrix {
     public static void main(String[] args) {
         int[][] nums = {{2,3},{4,5}};
         System.out.println(kthSmallest(nums, 2));
+         int[][] nums1 = {{4,5}};
+        System.out.println(kthSmallest(nums, 1));
     }
 }
