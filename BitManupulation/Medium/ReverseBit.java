@@ -22,6 +22,7 @@ public class ReverseBit {
 
     public static void main(String[] args) {
         System.out.println(reverseBits(43261596));
+        System.out.println(reverseBits(987));
     }
 
 }
