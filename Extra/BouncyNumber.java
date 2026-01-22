@@ -8,10 +8,10 @@ public class BouncyNumber {
         System.out.println("Input Number ");
         int a = sc.nextInt();
         if(isBouncy(a)){
-            System.out.println(a+ " is a bouncy number");
+            System.out.println(a + " is a bouncy number");
         }
         else
-        System.out.println(a+" is not a bouncy number");
+        System.out.println(a +  " is not a bouncy number");
         
     }
     public static boolean isBouncy(int n){
