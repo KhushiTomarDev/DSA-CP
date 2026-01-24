@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class BouncyNumber {
     public static void main(String[] args){
-        //Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Input Number ");
-        //int a = sc.nextInt();
-        int a =142;
+        int a = sc.nextInt();
+        
         if(isBouncy(a)){
             System.out.println(a + " is a bouncy number");
         }
