@@ -9,7 +9,7 @@ public class LengthOfLastWord {
     }
     public static void main(String[] args){
         String s="Raja babu";
-        System.out.println("The length of last word is : " + lengthOfLastWord(s));
+        System.out.println("The length of last word is: " + lengthOfLastWord(s));
     }
    
     
