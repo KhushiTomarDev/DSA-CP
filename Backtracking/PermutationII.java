@@ -42,6 +42,7 @@ public class PermutationII {
     }
     public static void main(String[] args) {
         int[] nums ={2,1,3};
+        System.out.println("The answer is ");
         System.out.println(permuteUnique(nums));
     }
     
