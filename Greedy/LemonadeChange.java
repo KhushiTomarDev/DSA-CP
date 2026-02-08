@@ -33,8 +33,8 @@ public class LemonadeChange {
         }
     public static void main(String[] args) {
         int[] bills = {2,3,45,66};
-        int[] bills1 = {3,8,9,6};
+        //int[] bills1 = {3,8,9,6};
     }
     System.out.println(lemonadeChange(bills));
-    System.out.println(lemonadeChange(bills1));
+   // System.out.println(lemonadeChange(bills1));
 }
