@@ -36,5 +36,5 @@ public class LemonadeChange {
         int[] bills1 = {3,23,8,9,6};
     }
     System.out.println(lemonadeChange(bills));
-    //System.out.println(lemonadeChange(bills1));
+    System.out.println(lemonadeChange(bills1));
 }
